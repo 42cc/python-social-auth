@@ -12,7 +12,7 @@ from social.tests.backends.open_id import OpenIdTest
 
 
 class GoogleOAuth2Test(OAuth2Test):
-    backend_path = 'social_core.backends.google.GoogleOAuth2'
+    backend_path = 'social.backends.google.GoogleOAuth2'
     user_data_url = 'https://www.googleapis.com/oauth2/v3/userinfo'
     expected_username = 'foo'
     access_token_body = json.dumps({
