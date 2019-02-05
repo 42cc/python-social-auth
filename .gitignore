@@ -41,3 +41,9 @@ _build/
 fabfile.py
 
 .DS_Store
+
+# Editors
+.idea/
+*.swp
+*~
+*.swo
